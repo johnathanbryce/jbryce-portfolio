@@ -1,0 +1,9 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f88c5;
+  height: 100vh;
+  scroll-snap-align: start;
+  color: #f6f7eb;
+}

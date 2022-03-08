@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  position: fixed;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #393e41;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  color: white;
+  padding: 2rem;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header li {
+  margin: 2.5rem;
+  width: 100%;
+}

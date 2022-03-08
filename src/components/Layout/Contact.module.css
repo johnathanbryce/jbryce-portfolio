@@ -1,0 +1,8 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e26d5c;
+  height: 100vh;
+  scroll-snap-align: start;
+}
