@@ -25,3 +25,10 @@
   margin: 2.5rem;
   width: 100%;
 }
+
+.header a:hover,
+.header a.active {
+  color: #e3dfff;
+  padding-bottom: 1rem;
+  border-bottom: 0.25rem solid white;
+}

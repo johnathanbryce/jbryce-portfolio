@@ -1,7 +1,7 @@
 .about {
   display: flex;
   align-items: center;
-
+  flex-direction: column;
   background-color: #3f88c5;
   height: 100vh;
   scroll-snap-align: start;
@@ -14,6 +14,7 @@
 .about__content {
   display: flex;
   align-items: center;
+  margin-top: 10%;
 }
 
 .about__bio__img {
@@ -72,4 +73,14 @@ button:active {
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   transition: all 0.8s;
+}
+
+button a {
+  margin: 0 auto;
+}
+
+.scrolldown {
+  margin-top: 5rem;
+  color: white;
+  --fa-animation-duration: 4.5s;
 }

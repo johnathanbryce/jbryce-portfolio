@@ -1,18 +1,47 @@
 import classes from "./Navbar.module.css";
 
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 const Navbar = () => {
   return (
-    <div className={classes.header}>
-      <h1> John Bryce </h1>
-      <nav>
-        <ul>
-          <li> About </li>
-          <li> Projects </li>
-          <li> Skills </li>
-          <li> Contact </li>
-        </ul>
-      </nav>
-    </div>
+    <BrowserRouter>
+      <div className={classes.header}>
+        <h1> John Bryce </h1>
+        <nav>
+          <ul>
+            <li>
+              <Link to="#about" smooth={true} activeClassName={classes.active}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#projects"
+                smooth={true}
+                activeClassName={classes.active}
+              >
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="#skills" smooth={true} activeClassName={classes.active}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#contact"
+                smooth={true}
+                activeClassName={classes.active}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </BrowserRouter>
   );
 };
 

@@ -1,14 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 import "aos/dist/aos.css";
 import classes from "./About.module.css";
+
 import portfolio__image from "../../images/portfolio-image.jpeg";
 import github__Icon from "../../images/github-icon.png";
 import linkedin__icon from "../../images/linkedin-icon.png";
 
 const About = () => {
   return (
-    <div className={classes.about}>
+    <div className={classes.about} id="about">
       <div className={classes.about__content}>
         <div className={classes.left}>
           <img
@@ -29,10 +33,20 @@ const About = () => {
             <span className={classes.highlight}> Front-End Web Developer </span>
             currently based in Vancouver, BC. I am passionate about creating
             fluid, creative, and interactive websites and applications and
-            expanding on my coding skillsets. Welcome to my portfolio page!
+            continually expanding on my coding skillsets. Welcome to my
+            portfolio page!
           </p>
           <div className={classes.btn__container} data-aos="fade-right">
-            <button className={classes.resume__btn}> Resume </button>
+            <button className={classes.resume__btn}>
+              <a
+                href="https://docs.google.com/document/d/1hyoA6cP3A0eP81UTBaAEKyqu1KSnyW-hs2qyX8HQr80/export?format=pdf"
+                download
+                rel="noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+            </button>
 
             <a
               href="https://github.com/johnathanbryce"
@@ -58,6 +72,10 @@ const About = () => {
             </a>
           </div>
         </div>
+      </div>
+
+      <div className={classes.scrolldown}>
+        <FontAwesomeIcon icon={faAnglesDown} size="2x" fade />
       </div>
     </div>
   );

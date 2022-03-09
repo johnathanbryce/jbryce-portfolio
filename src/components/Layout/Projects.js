@@ -2,7 +2,7 @@ import classes from "./Projects.module.css";
 
 const Projects = () => {
   return (
-    <div className={classes.projects}>
+    <div className={classes.projects} id="projects">
       <div className={classes.projects__content}>
         <div>
           <h2 data-aos="fade-up">Here are my Projects. </h2>
