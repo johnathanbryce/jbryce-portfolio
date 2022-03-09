@@ -1,9 +1,75 @@
 .about {
   display: flex;
-  justify-content: center;
   align-items: center;
+
   background-color: #3f88c5;
   height: 100vh;
   scroll-snap-align: start;
   color: #f6f7eb;
+
+  /* content padding per component */
+  padding: 0 10rem 0 10rem;
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+}
+
+.about__bio__img {
+  border: 0.4rem solid white;
+  border-radius: 50%;
+}
+
+.highlight {
+  font-size: 2.5rem;
+  color: #ffb627;
+  font-weight: bold;
+}
+
+.left,
+.right {
+  margin: 5rem;
+}
+
+.btn__container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.resume__btn {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(246, 247, 235, 0.25);
+  border-radius: 1rem;
+  margin-right: 10rem;
+  width: 15rem;
+  height: 5rem;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
+  background-color: #ffb727;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  padding: 1rem;
+  margin-right: 3rem;
+}
+
+.icon {
+  background-color: white;
+  border: 1rem solid white;
+  border-radius: 1rem;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+button:hover,
+button:active {
+  background-color: #e26d5c;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s;
 }

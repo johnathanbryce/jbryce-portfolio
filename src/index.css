@@ -55,3 +55,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* TYPOGRAPHY */
+
+h2 {
+  font-size: 7rem;
+}
