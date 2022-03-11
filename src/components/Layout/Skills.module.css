@@ -2,8 +2,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  flex-direction: column;
+
   background-color: #3f88c5;
   height: 100vh;
   scroll-snap-align: start;
   color: white;
+
+  /* content padding per component */
+  padding: 0 10rem 0 10rem;
+}
+
+.header__underline {
+  width: 100%;
+  border-bottom: 0.1rem solid white;
+  width: 100%;
 }

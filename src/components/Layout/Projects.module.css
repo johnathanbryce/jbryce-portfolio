@@ -1,8 +1,0 @@
-.projects {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f6f7eb;
-  height: 100vh;
-  scroll-snap-align: start;
-}

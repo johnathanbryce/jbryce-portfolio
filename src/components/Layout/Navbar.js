@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav>
           <ul>
             <li>
-              <Link to="#about" smooth={true} activeClassName={classes.active}>
+              <Link to="#about" smooth={true} ClassName={classes.active}>
                 About
               </Link>
             </li>
@@ -25,7 +25,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="#skills" smooth={true} activeClassName={classes.active}>
+              <Link to="#skills" smooth={true} ClassName={classes.active}>
                 Skills
               </Link>
             </li>

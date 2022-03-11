@@ -1,6 +1,6 @@
 import Navbar from "./components/Layout/Navbar";
 import About from "./components/Layout/About";
-import Projects from "./components/Layout/Projects";
+import Projects from "./components/Layout/Projects/Projects";
 import Skills from "./components/Layout/Skills";
 import Contact from "./components/Layout/Contact";
 
@@ -8,9 +8,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./App.css";
-
-import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
 
 function App() {
   useEffect(() => {

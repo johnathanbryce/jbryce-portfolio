@@ -10,6 +10,9 @@ import portfolio__image from "../../images/portfolio-image.jpeg";
 import github__Icon from "../../images/github-icon.png";
 import linkedin__icon from "../../images/linkedin-icon.png";
 
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 const About = () => {
   return (
     <div className={classes.about} id="about">
@@ -27,7 +30,7 @@ const About = () => {
           <p data-aos="fade-up">
             <span className={classes.highlight}>Hey there, </span> my name is
           </p>
-          <h2 data-aos="fade-left"> Johnathan Bryce </h2>
+          <h3 data-aos="fade-left"> Johnathan Bryce </h3>
           <p data-aos="fade-right">
             and I am a
             <span className={classes.highlight}> Front-End Web Developer </span>
