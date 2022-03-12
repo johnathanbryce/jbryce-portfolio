@@ -33,3 +33,32 @@
   padding-bottom: 1rem;
   border-bottom: 0.25rem solid white;
 }
+
+@media only screen and (max-width: 800px) {
+  .header {
+    display: block;
+    padding: 1.5rem;
+  }
+  h1 {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .header ul {
+    display: flex;
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .header li {
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0;
+  }
+
+  .header a:hover,
+  .header a.active {
+    color: #e3dfff;
+    padding-bottom: 0.25rem;
+    border-bottom: 0.1rem solid white;
+  }
+}

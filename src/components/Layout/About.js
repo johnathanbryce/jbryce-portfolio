@@ -10,9 +10,6 @@ import portfolio__image from "../../images/portfolio-image.jpeg";
 import github__Icon from "../../images/github-icon.png";
 import linkedin__icon from "../../images/linkedin-icon.png";
 
-import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
-
 const About = () => {
   return (
     <div className={classes.about} id="about">
@@ -45,7 +42,6 @@ const About = () => {
                 href="https://docs.google.com/document/d/1hyoA6cP3A0eP81UTBaAEKyqu1KSnyW-hs2qyX8HQr80/export?format=pdf"
                 download
                 rel="noreferrer"
-                target="_blank"
               >
                 Resume
               </a>

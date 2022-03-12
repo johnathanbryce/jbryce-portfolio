@@ -29,6 +29,7 @@ const Projects = () => {
           navigation={true}
           pagination={{
             clickable: true,
+            horizontalClass: "swiper-pagination-horizontal",
           }}
           modules={[EffectFlip, Navigation, Pagination]}
           className="mySwiper"
@@ -39,31 +40,34 @@ const Projects = () => {
               img={placeholderimage}
               description="This site provides current and prospective patrons a landing page to learn about and access services for spiritual healing and guidance techniques from CREDENTIALS, Sydney Fisher."
               languages="CSS, SCSS, HTML, JavaScript, jQuery "
-              skills="client work, CSS/Layout focus "
+              skills="Working with a client "
             />
           </SwiperSlide>
           <SwiperSlide>
             <ProjectsCard
               dailyfeed="My Daily Feed"
               img={placeholderimage}
-              description="website made for me. Ipsum mollit ipsum laboris deserunt consequat nulla dolore esse eu excepteur nostrud. Est dolore sunt aute minim esse quis aute quis adipisicing non."
+              description="A React app I designed for myself which updates curated news articles based on topics of personal interest that refreshes every two hours. It also provides live updates on Vancouver weather"
               languages="React, JavaScript, CSS, HTML "
+              skills="Fetching & manipulating API data"
             />
           </SwiperSlide>
           <SwiperSlide>
             <ProjectsCard
               dicegame="Dice Game"
               img={placeholderimage}
-              description="website made for me. Ipsum mollit ipsum laboris deserunt consequat nulla dolore esse eu excepteur nostrud. Est dolore sunt aute minim esse quis aute quis adipisicing non."
+              description="A dice rolling game against a computer. Highest number after 3 rolls wins! My final individual project for BCIT's COMP2131 - Web Development with Javascript, which received a grade of 100%."
               languages="JavaScript, jQuery, CSS, SCSS, HTML"
+              skills="JavaScript game logic"
             />
           </SwiperSlide>
           <SwiperSlide>
             <ProjectsCard
               notes="React & JavaScript Notes"
               img={placeholderimage}
-              description="website made for me. Ipsum mollit ipsum laboris deserunt consequat nulla dolore esse eu excepteur nostrud. Est dolore sunt aute minim esse quis aute quis adipisicing non."
+              description="My first ever attempt at using React to create an app in which I take notes in a React environment while learning React and refreshing myself on Javascript concepts and includes a to-study list."
               languages="React, JavaScript, CSS, HTML"
+              skills="Hooks, Router, Component and File Layout Structuring"
             />
           </SwiperSlide>
         </Swiper>

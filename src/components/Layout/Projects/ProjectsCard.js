@@ -23,7 +23,7 @@ const ProjectsCards = ({
         <div className={classes.projectscard__text__bottom}>
           <div>
             <p>Languages used: </p>
-            <p>Skills demonstrated: </p>
+            <p> Highlighted skill: </p>
           </div>
           <div>
             <p>{languages}</p>
