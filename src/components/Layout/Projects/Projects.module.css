@@ -18,9 +18,21 @@
   width: 100%;
   border-bottom: 0.1rem solid white;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .carousel__container {
-  height: 55rem;
+  height: 54rem;
   width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downbtn {
+  margin-top: 1.5rem;
+
+  color: white;
+  --fa-animation-duration: 4.5s;
 }

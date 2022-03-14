@@ -1,3 +1,10 @@
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
 import classes from "./Skills.module.css";
 import github__icon from "../../images/github-icon.png";
 import js__icon from "../../images/js.png";
@@ -102,6 +109,13 @@ const Skills = () => {
         >
           <h5> Bachelor of Science, Psychology - University of Victoria </h5>
         </a>
+      </div>
+      <div className={classes.scrolldown__skills}>
+        <BrowserRouter>
+          <Link to="#contact" smooth={true}>
+            <FontAwesomeIcon icon={faAnglesDown} size="2x" fade />{" "}
+          </Link>
+        </BrowserRouter>
       </div>
     </div>
   );

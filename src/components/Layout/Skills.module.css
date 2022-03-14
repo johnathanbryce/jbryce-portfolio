@@ -57,6 +57,15 @@
   left: 20%;
 }
 
+.scrolldown__skills {
+  margin-top: 4rem;
+  position: relative;
+  top: 5rem;
+
+  color: white;
+  --fa-animation-duration: 4.5s;
+}
+
 @media only screen and (max-width: 500px) {
   .skills__header {
     display: flex;

@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
@@ -74,7 +76,11 @@ const About = () => {
       </div>
 
       <div className={classes.scrolldown}>
-        <FontAwesomeIcon icon={faAnglesDown} size="2x" fade />
+        <BrowserRouter>
+          <Link to="#projects" smooth={true}>
+            <FontAwesomeIcon icon={faAnglesDown} size="2x" fade />{" "}
+          </Link>
+        </BrowserRouter>
       </div>
     </div>
   );

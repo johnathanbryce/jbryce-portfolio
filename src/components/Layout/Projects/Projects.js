@@ -1,3 +1,10 @@
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
+
 import ProjectsCard from "./ProjectsCard";
 import classes from "./Projects.module.css";
 
@@ -18,6 +25,7 @@ const Projects = () => {
       <h2 data-aos="fade-down" className={classes.projects__header}>
         Projects
       </h2>
+
       <div className={classes.header__underline} data-aos="fade-left">
         {" "}
       </div>
@@ -56,7 +64,7 @@ const Projects = () => {
             <ProjectsCard
               dicegame="Dice Game"
               img={placeholderimage}
-              description="A dice rolling game against a computer. Highest number after 3 rolls wins! My final individual project for BCIT's COMP2131 - Web Development with Javascript, which received a grade of 100%."
+              description="A dice rolling game against a computer. Highest number after 3 rolls wins! My final individual project for BCIT's COMP2131 - Web Development with Javascript which received a grade of 100%."
               languages="JavaScript, jQuery, CSS, SCSS, HTML"
               skills="JavaScript game logic"
             />
@@ -67,10 +75,21 @@ const Projects = () => {
               img={placeholderimage}
               description="My first ever attempt at using React to create an app in which I take notes in a React environment while learning React and refreshing myself on Javascript concepts and includes a to-study list."
               languages="React, JavaScript, CSS, HTML"
-              skills="Hooks, Router, Component and File Layout Structuring"
+              skills="React: Hooks/Router/Component Structuring"
             />
           </SwiperSlide>
         </Swiper>
+
+        <BrowserRouter>
+          <Link to="#skills" smooth={true}>
+            <FontAwesomeIcon
+              icon={faAnglesDown}
+              size="2x"
+              fade
+              className={classes.downbtn}
+            />{" "}
+          </Link>
+        </BrowserRouter>
       </div>
     </section>
   );

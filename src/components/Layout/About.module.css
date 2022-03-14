@@ -67,20 +67,20 @@ a {
   margin-top: 1rem;
 }
 
-button:hover,
-button:active {
+.resume__btn:hover,
+.resume__btn:active {
   background-color: #e26d5c;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   transition: all 0.8s;
 }
 
-button a {
+.resume__btn a {
   margin: 0 auto;
 }
 
 .scrolldown {
-  margin-top: 5rem;
+  margin-top: 7rem;
   color: white;
   --fa-animation-duration: 4.5s;
 }

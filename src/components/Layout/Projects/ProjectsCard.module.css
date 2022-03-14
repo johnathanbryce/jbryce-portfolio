@@ -58,6 +58,13 @@
   color: #99e1d9;
 }
 
+.scrolldown__projects {
+  margin-top: 5rem;
+
+  color: white;
+  --fa-animation-duration: 4.5s;
+}
+
 /*
 @media only screen and (max-width: 600px) {
   .projectscard {
