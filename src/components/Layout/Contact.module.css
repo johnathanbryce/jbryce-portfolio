@@ -58,3 +58,23 @@ textarea,
 button {
   border-radius: 1.2rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .contact__header {
+    font-size: 2rem;
+  }
+  form input {
+    width: 150%;
+  }
+
+  textarea {
+    height: 20rem;
+    width: 150%;
+  }
+
+  .form__button {
+    margin-top: 1.5rem;
+    width: 150%;
+    height: 5rem;
+  }
+}

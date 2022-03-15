@@ -25,7 +25,7 @@ const ProjectsCards = ({
             <p>Languages used: </p>
             <p> Highlighted skill: </p>
           </div>
-          <div>
+          <div className={classes.language__skills}>
             <p>{languages}</p>
             <p>{skills}</p>
           </div>
@@ -36,17 +36,3 @@ const ProjectsCards = ({
 };
 
 export default ProjectsCards;
-
-/*
-
-        <p className={classes.languages}>
-          Languages used:
-          <span className={classes.languages__style}>{languages}</span>
-        </p>
-        <p className={classes.skills}>
-          Skills demonstrated:
-          <span className={classes.skills__style}>{skills}</span>
-        </p>
-
-
-*/

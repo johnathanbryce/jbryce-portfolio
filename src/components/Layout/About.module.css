@@ -19,7 +19,7 @@
 
 .about__bio__img {
   border: 0.4rem solid white;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .highlight {
@@ -83,4 +83,89 @@ a {
   margin-top: 7rem;
   color: white;
   --fa-animation-duration: 4.5s;
+}
+
+@media only screen and (max-width: 950px) {
+  .about__content {
+    margin-top: 15rem;
+  }
+  .about__bio__img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .left,
+  .right {
+    margin: 2rem;
+  }
+
+  .scrolldown {
+    margin-top: 15rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .btn__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__bio__img {
+    margin-top: 2rem;
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .highlight {
+    font-size: 2rem;
+  }
+
+  .scrolldown {
+    margin-top: -1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about__bio__img {
+    margin-top: 1rem;
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .right {
+    width: 30rem;
+  }
+
+  .resume__btn {
+    margin-right: 2.5rem;
+  }
+
+  .btn__container {
+    margin-top: 0.5rem;
+  }
+
+  .hightlight {
+    font-size: 1.5rem;
+  }
+
+  .scrolldown {
+    position: relative;
+    left: 2rem;
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about__content {
+    margin-top: 40%;
+  }
 }

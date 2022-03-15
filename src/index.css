@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=League+Gothic&family=Open+Sans:wght@300;400&display=swap");
+
 *,
 *::after,
 *::before {
@@ -99,4 +101,46 @@ h5 {
 
 .swiper-pagination-bullet-active {
   background: white !important;
+}
+
+@media only screen and (max-width: 1010px) {
+  html {
+    /* REMOVE SCROLL SNAP ON SMALLER SCREENS */
+    scroll-snap-type: none;
+  }
+
+  body {
+    overflow: hidden;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    margin-top: 0;
+    display: flex;
+
+    justify-content: center;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
 }

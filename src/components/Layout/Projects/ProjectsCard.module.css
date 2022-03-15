@@ -25,12 +25,12 @@
 
   padding: 1rem;
   font-size: 1.55rem;
-  width: 60%;
+
   width: 50rem;
 }
 
 .projectscard__text p:nth-of-type(2) {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .projectscard__text__bottom {
@@ -39,6 +39,7 @@
   align-self: center;
   padding: 1rem;
   margin-top: 1rem;
+
   text-align: justify;
   width: 50rem;
 }
@@ -63,6 +64,41 @@
 
   color: white;
   --fa-animation-duration: 4.5s;
+}
+
+@media only screen and (max-width: 1150px) {
+  .projectscard {
+    height: 50rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .projectscard__text,
+  .projectscard__text__bottom {
+    padding: 1rem;
+
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projectscard {
+    width: 40rem;
+    height: 50rem;
+  }
+  .projectscard__text p,
+  .projectscard__text__bottom p {
+    font-size: 1.25rem;
+    height: 100%;
+  }
+
+  .projectscard__text__bottom {
+    margin-bottom: 0;
+  }
+
+  .language__skills {
+    margin: 0;
+  }
 }
 
 /*

@@ -7,7 +7,10 @@ const Navbar = () => {
   return (
     <BrowserRouter>
       <div className={classes.header}>
-        <h1> John Bryce Web Dev</h1>
+        <h1>
+          {" "}
+          John Bryce <span className={classes.highlight}>Web Development </span>
+        </h1>
         <nav>
           <ul>
             <li>
