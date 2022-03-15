@@ -9,17 +9,21 @@ const ProjectsCards = ({
   description,
   languages,
   skills,
+  link,
 }) => {
   return (
     <article className={classes.projectscard}>
-      <h4 className={classes.solluna}> {solluna} </h4>
-      <h4 className={classes.dailyfeed}> {dailyfeed} </h4>
-      <h4 className={classes.dicegame}> {dicegame} </h4>
-      <h4 className={classes.notes}> {notes} </h4>
+      <a href={link} target="_blank" rel="noreferrer">
+        <h4 className={classes.solluna}> {solluna} </h4>
+        <h4 className={classes.dailyfeed}> {dailyfeed} </h4>
+        <h4 className={classes.dicegame}> {dicegame} </h4>
+        <h4 className={classes.notes}> {notes} </h4>
 
-      <img src={img} alt="" className={classes.projectscard__image} />
+        <img src={img} alt="" className={classes.projectscard__image} />
+      </a>
       <div className={classes.projectscard__text}>
         <p>{description}</p>
+
         <div className={classes.projectscard__text__bottom}>
           <div>
             <p>Languages used: </p>

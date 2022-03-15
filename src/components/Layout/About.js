@@ -41,7 +41,7 @@ const About = () => {
           <div className={classes.btn__container} data-aos="fade-right">
             <button className={classes.resume__btn}>
               <a
-                href="https://docs.google.com/document/d/1hyoA6cP3A0eP81UTBaAEKyqu1KSnyW-hs2qyX8HQr80/export?format=pdf"
+                href=" https://docs.google.com/document/d/10tNCxexi9zFaYBwJwgDzl9M5rRYRysSu0XYQ4lZOcmQ/export?format=pdf"
                 download
                 rel="noreferrer"
               >

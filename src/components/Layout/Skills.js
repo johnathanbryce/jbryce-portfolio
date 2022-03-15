@@ -83,7 +83,7 @@ const Skills = () => {
         />
       </div>
       <h2 data-aos="fade-right" className={classes.skills__header}>
-        Relavent Education{" "}
+        Relevant Education{" "}
       </h2>
 
       <div className={classes.header__underline} data-aos="fade-left"></div>

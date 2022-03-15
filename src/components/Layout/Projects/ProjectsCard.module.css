@@ -4,7 +4,6 @@
   align-items: center;
   overflow: hidden;
   background-color: rgba(57, 62, 65, 0.8);
-
   text-align: center;
   height: 100%;
   width: 100%;
@@ -12,8 +11,8 @@
 }
 
 .projectscard__image {
-  max-width: 35%;
-  max-height: 45%;
+  max-width: 70%;
+  max-height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
   margin: 1rem 0 2rem 0;
@@ -22,10 +21,8 @@
 .projectscard__text {
   display: flex;
   flex-direction: column;
-
   padding: 1rem;
   font-size: 1.55rem;
-
   width: 50rem;
 }
 
@@ -61,7 +58,6 @@
 
 .scrolldown__projects {
   margin-top: 5rem;
-
   color: white;
   --fa-animation-duration: 4.5s;
 }
@@ -70,13 +66,20 @@
   .projectscard {
     height: 50rem;
   }
+
+  .projectscard__text__bottom {
+    margin-top: 0rem;
+  }
+
+  .projectscard__image {
+    margin: 0.5rem 0 0.5rem 0;
+  }
 }
 
 @media only screen and (max-width: 800px) {
   .projectscard__text,
   .projectscard__text__bottom {
     padding: 1rem;
-
     width: 30rem;
   }
 }
@@ -88,8 +91,8 @@
   }
   .projectscard__text p,
   .projectscard__text__bottom p {
+    text-align: center;
     font-size: 1.25rem;
-    height: 100%;
   }
 
   .projectscard__text__bottom {
@@ -97,22 +100,9 @@
   }
 
   .language__skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 0;
   }
 }
-
-/*
-@media only screen and (max-width: 600px) {
-  .projectscard {
-    width: 15rem;
-    height: 20rem;
-    line-height: 1;
-  }
-
-  .articles_card p,
-  h3,
-  img {
-    font-size: 1.1rem;
-  }
-}
-*/
