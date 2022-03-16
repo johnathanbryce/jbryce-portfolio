@@ -84,7 +84,9 @@
 
   .skills h2 {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
   }
 
   .skills h5 {
@@ -103,6 +105,7 @@
   .skills__icon {
     height: 3rem;
     margin: 0.25rem;
+    padding: 1rem;
   }
 
   .scrolldown__skills {

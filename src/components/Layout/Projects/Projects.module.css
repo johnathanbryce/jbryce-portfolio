@@ -46,6 +46,10 @@
     margin-top: 4.5rem;
   }
 
+  .projects h2 {
+    font-size: 3rem;
+  }
+
   .carousel__container {
     width: 40rem;
     height: 50rem;

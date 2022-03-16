@@ -61,7 +61,7 @@ button {
 
 @media only screen and (max-width: 500px) {
   .contact__header {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   form input {
     width: 150%;
