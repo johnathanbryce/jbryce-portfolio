@@ -164,8 +164,14 @@ a {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .about__content {
     margin-top: 40%;
+  }
+
+  .scrolldown {
+    position: relative;
+    left: 2rem;
+    margin-top: 100%;
   }
 }

@@ -93,10 +93,11 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   .skills__header {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
   }
 
   .skills__icon {
@@ -105,6 +106,6 @@
   }
 
   .scrolldown__skills {
-    margin-top: 0rem;
+    display: none;
   }
 }
