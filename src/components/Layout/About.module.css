@@ -169,6 +169,12 @@ a {
     margin-top: 40%;
   }
 
+  .about__bio__img {
+    margin-top: 1rem;
+    height: 20rem;
+    width: 100%;
+  }
+
   .scrolldown {
     position: relative;
     left: 2rem;
