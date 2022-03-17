@@ -18,8 +18,9 @@
 }
 
 .about__bio__img {
+  width: 100%;
   border: 0.4rem solid white;
-  border-radius: 10%;
+  border-radius: 50%;
 }
 
 .highlight {
@@ -122,7 +123,8 @@ a {
   .about__bio__img {
     margin-top: 2rem;
     height: 20rem;
-    width: 20rem;
+
+    width: 100%;
   }
 
   .highlight {
@@ -137,8 +139,8 @@ a {
 @media only screen and (max-width: 500px) {
   .about__bio__img {
     margin-top: 1rem;
-    height: 15rem;
-    width: 15rem;
+    height: 16rem;
+    width: 100%;
   }
 
   .right {
@@ -175,9 +177,9 @@ a {
   }
 
   .about__bio__img {
-    margin-top: 1rem;
-    height: 20rem;
-    width: 20rem;
+    margin-top: 1.5rem;
+    height: 18rem;
+    width: 100%;
   }
 
   .scrolldown {

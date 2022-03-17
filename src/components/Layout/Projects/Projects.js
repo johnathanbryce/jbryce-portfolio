@@ -26,7 +26,7 @@ const Projects = () => {
   return (
     <section className={classes.projects} id="projects">
       <h2 data-aos="fade-down" className={classes.projects__header}>
-        My Projects
+        Projects
       </h2>
 
       <div className={classes.header__underline} data-aos="fade-left">
@@ -70,7 +70,7 @@ const Projects = () => {
               dicegame="Dice Game"
               link="https://dice-game-jb.netlify.app/"
               img={dicegameimage}
-              description="A dice rolling game against a computer. Highest number after 3 rolls wins! My final individual project for BCIT's COMP2131 - Web Development with Javascript which received a grade of 100%."
+              description="A dice rolling game against a computer. Highest number after 3 rolls wins! My final individual project for BCIT's COMP2131 - Web Development with Javascript that received a grade of 100%."
               languages="JavaScript, jQuery, CSS, SCSS, HTML"
               skills="JavaScript game logic"
             />
@@ -80,7 +80,7 @@ const Projects = () => {
               notes="React & JavaScript Notes"
               link="https://react-js-notes.netlify.app/"
               img={reactjsnotesimage}
-              description="In order to better familiarize myself with the React framework I took an interactive approach to note taking by transcribing React and JavaScript core concepts directly in a React environment."
+              description="In order to better familiarize myself with the React framework I took an interactive approach to note-taking by transcribing React and JavaScript core concepts directly in a React environment."
               languages="React, JavaScript, CSS, HTML"
               skills="Hooks/Router/Component Structuring"
             />

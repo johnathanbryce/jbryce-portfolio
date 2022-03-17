@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className={classes.skills} id="skills">
       <h2 data-aos="fade-left" className={classes.skills__header}>
-        My Skills{" "}
+        Skills{" "}
       </h2>
       <div className={classes.header__underline} data-aos="fade-left"></div>
       <div className={classes.skills__container}>
@@ -36,7 +36,7 @@ const Skills = () => {
         </ul>
       </div>
       <h2 data-aos="fade-right" className={classes.skills__header}>
-        My Relevant Education{" "}
+        Relevant Education{" "}
       </h2>
 
       <div className={classes.header__underline} data-aos="fade-left"></div>
@@ -46,21 +46,24 @@ const Skills = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <h5>Web Development Fundamentals - BCIT</h5>
+          <h5>Web Development Fundamentals - BCIT (2021)</h5>
         </a>
         <a
           href="https://www.lighthouselabs.ca/en/intro-web-development-course"
           target="_blank"
           rel="noreferrer"
         >
-          <h5>Intro to Web Development (Part Time) - Lighthouse Labs</h5>
+          <h5>Intro to Web Development (Part Time) - Lighthouse Labs (2020)</h5>
         </a>
         <a
           href="https://www.uvic.ca/socialsciences/psychology/index.php"
           target="_blank"
           rel="noreferrer"
         >
-          <h5> Bachelor of Science, Psychology - University of Victoria </h5>
+          <h5>
+            {" "}
+            Bachelor of Science, Psychology - University of Victoria (2017)
+          </h5>
         </a>
       </div>
       <div className={classes.scrolldown__skills}>

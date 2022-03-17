@@ -27,16 +27,15 @@ const About = () => {
 
         <div className={classes.right}>
           <p data-aos="fade-up">
-            <span className={classes.highlight}>Hey there, </span> my name is
+            <span className={classes.highlight}>Hello, </span> my name is
           </p>
           <h3 data-aos="fade-left"> Johnathan Bryce </h3>
           <p data-aos="fade-right">
             and I am a
             <span className={classes.highlight}> Front-End Web Developer </span>
-            currently based in Vancouver, BC. I am passionate about creating
-            fluid, creative, and interactive websites and applications and
-            continually expanding on my coding skillsets. Welcome to my
-            portfolio page!
+            based in Vancouver, BC. I am passionate about building fluid,
+            creative, and interactive websites and applications and continually
+            expanding on my coding skillsets. Welcome to my portfolio page!
           </p>
           <div className={classes.btn__container} data-aos="fade-right">
             <button className={classes.resume__btn}>
