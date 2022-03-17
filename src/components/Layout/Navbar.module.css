@@ -117,3 +117,10 @@
     border-bottom: 0.1rem solid white;
   }
 }
+
+@media only screen and (max-width: 417px) {
+  .header__logo__container {
+    height: inherit;
+    width: 2.5rem;
+  }
+}
