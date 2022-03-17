@@ -77,4 +77,12 @@ button {
     width: 150%;
     height: 5rem;
   }
+
+  .form__button:hover,
+  .form__button:active {
+    background-color: #ffb627;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
+  }
 }

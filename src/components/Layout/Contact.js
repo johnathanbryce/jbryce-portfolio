@@ -1,4 +1,5 @@
 import classes from "./Contact.module.css";
+import jbrycelogo from "../../images/jbryce-logo.png";
 
 import { useState } from "react";
 
@@ -28,6 +29,7 @@ const Contact = () => {
       <h2 data-aos="fade-down" className={classes.contact__header}>
         Contact Me
       </h2>
+
       <div className={classes.header__underline} data-aos="fade-left"></div>
       <div className={classes.contact__content}>
         <form

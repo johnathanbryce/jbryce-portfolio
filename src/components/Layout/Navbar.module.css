@@ -1,7 +1,8 @@
 .header {
   display: flex;
+
   position: fixed;
-  height: 8rem;
+  height: 10rem;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -13,7 +14,19 @@
   opacity: 0.8;
   color: white;
   padding: 4rem;
+
   z-index: 999;
+}
+
+.header__logo__container {
+  height: inherit;
+  width: 10rem;
+}
+.logo {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 1rem;
 }
 
 .highlight {
@@ -47,6 +60,11 @@
     font-size: 1.9rem;
   }
 
+  .header__logo__container {
+    height: inherit;
+    width: 10rem;
+  }
+
   .highlight {
     font-size: 1.45rem;
     position: relative;
@@ -66,8 +84,14 @@
 
 @media only screen and (max-width: 800px) {
   .header {
-    display: block;
-    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .header__logo__container {
+    height: inherit;
+    width: 5rem;
   }
   h1 {
     display: block;
@@ -77,11 +101,12 @@
   .header ul {
     display: flex;
     margin-top: 0.8rem;
+
     text-align: center;
   }
   .header li {
     font-size: 1rem;
-    padding: 0.2rem;
+    padding: 0.25rem 2.7rem 0.25rem 2.7rem;
     margin: 0;
   }
 

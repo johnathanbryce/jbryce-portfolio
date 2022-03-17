@@ -7,11 +7,12 @@
   background-color: #e26d5c;
   height: 100vh;
   scroll-snap-align: start;
-
   /* content padding per component */
   padding: 0 10rem 0 10rem;
-
   position: relative;
+}
+.projects__header {
+  margin-top: 5rem;
 }
 
 .header__underline {

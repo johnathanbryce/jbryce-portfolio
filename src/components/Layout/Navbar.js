@@ -1,16 +1,28 @@
 import classes from "./Navbar.module.css";
+import jbrycelogo from "../../images/jbryce-logo.png";
 
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+
+/*
+
+      <h1>
+          John Bryce <span className={classes.highlight}>Web Development </span>
+        </h1>
+
+        */
 
 const Navbar = () => {
   return (
     <BrowserRouter>
       <div className={classes.header}>
-        <h1>
-          {" "}
-          John Bryce <span className={classes.highlight}>Web Development </span>
-        </h1>
+        <div className={classes.header__logo__container}>
+          <img
+            src={jbrycelogo}
+            alt="John Bryce's web development logo"
+            className={classes.logo}
+          />
+        </div>
         <nav>
           <ul>
             <li>
