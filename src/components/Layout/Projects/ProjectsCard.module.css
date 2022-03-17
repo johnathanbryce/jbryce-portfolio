@@ -114,3 +114,24 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 417px) {
+  .projectscard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .projectscard__image {
+    border: 0.1rem solid white;
+    width: 90%;
+    height: 50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin: 1rem 0 0 0;
+  }
+
+  .projectscard__text {
+    margin-top: -4.5rem;
+    padding: 0;
+  }
+}
