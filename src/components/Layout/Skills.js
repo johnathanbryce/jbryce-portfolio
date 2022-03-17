@@ -6,17 +6,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 import classes from "./Skills.module.css";
-import github__icon from "../../images/github-icon.png";
-import js__icon from "../../images/js.png";
-import jquery__icon from "../../images/jquery-icon.jpg";
-import react__icon from "../../images/react.png";
-import html__icon from "../../images/html-5.png";
-import css__icon from "../../images/css.png";
-import sass__icon from "../../images/sass.png";
-import git__icon from "../../images/git.png";
-import xd__icon from "../../images/xd.png";
-import excel__icon from "../../images/sheets.png";
-import access__icon from "../../images/access.png";
 
 const Skills = () => {
   return (
