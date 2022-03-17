@@ -1,5 +1,4 @@
 import classes from "./Contact.module.css";
-import jbrycelogo from "../../images/jbryce-logo.png";
 
 import { useState } from "react";
 
