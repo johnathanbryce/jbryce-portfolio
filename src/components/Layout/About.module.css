@@ -20,7 +20,7 @@
 .about__bio__img {
   width: 100%;
   border: 0.4rem solid white;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .highlight {
