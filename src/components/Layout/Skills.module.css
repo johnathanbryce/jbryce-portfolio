@@ -25,10 +25,32 @@
   margin-top: 6rem;
 }
 
+.skills__container__list {
+  display: flex;
+}
+
+.skills__container__list div li {
+  text-align: left;
+}
+
+.skills__container__list li {
+  list-style-type: none;
+  padding: 1rem 8rem 1rem 8rem;
+}
+
+.skills__container__list li:before {
+  content: "o";
+  color: #ffb627;
+}
+
 .education__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.education__container a:hover {
+  color: #ffb627;
 }
 
 .skills__header {
@@ -36,26 +58,20 @@
   justify-content: center;
 }
 
-.skills__icon {
-  height: 5rem;
-  width: auto;
-  margin: 0 2.4rem -1rem 2.2rem;
-}
-
 .scrolldown__skills {
-  margin-top: 4rem;
+  margin-top: 2rem;
   position: relative;
-  top: 5rem;
+  top: 3.2rem;
 
   color: white;
   --fa-animation-duration: 4.5s;
 }
 
 @media only screen and (max-width: 1250px) {
-  .skills__icon {
-    margin: 2rem;
+  .skills__container__list li {
+    list-style-type: none;
+    padding: 1rem 4rem 1rem 4rem;
   }
-
   .skills h5 {
     font-size: 1.5rem;
   }
@@ -66,13 +82,26 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .skills__icon {
-    height: 3.5rem;
-    margin: 1.5rem;
-  }
+@media only screen and (max-width: 880px) {
   .education__container {
     text-align: center;
+  }
+
+  .skills__container__list li {
+    align-self: flex-start;
+    list-style-type: none;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .skills h2 {
+    font-size: 3.5rem;
+  }
+  .skills__container__list li {
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -93,6 +122,15 @@
     margin-top: 1.5rem;
     font-size: 1rem;
   }
+
+  .skills__container__list {
+    display: block;
+  }
+
+  .skills__container__list li {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (max-width: 420px) {
@@ -100,12 +138,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 1.5rem;
-  }
-
-  .skills__icon {
-    height: 6rem;
-    margin: 0.25rem;
-    padding: 1rem;
   }
 
   .scrolldown__skills {

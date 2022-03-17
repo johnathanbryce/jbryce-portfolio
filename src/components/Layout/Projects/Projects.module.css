@@ -31,6 +31,7 @@
 }
 
 .downbtn {
+  margin-top: 1rem;
   color: white;
   --fa-animation-duration: 4.5s;
 }
