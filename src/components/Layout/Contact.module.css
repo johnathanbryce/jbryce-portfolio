@@ -95,5 +95,10 @@ button {
   .form__button {
     color: black;
     -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+
+  *:focus {
+    outline: 0 !important;
   }
 }
