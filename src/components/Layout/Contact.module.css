@@ -4,7 +4,7 @@
   align-items: center;
   color: white;
   flex-direction: column;
-  background-color: #e26d5c;
+  background-color: #21366d;
   height: 100vh;
   scroll-snap-align: start;
 
@@ -41,13 +41,16 @@ textarea {
 
 .form__button {
   margin-top: 1.5rem;
+
   width: 40rem;
   height: 5rem;
 }
 
 .form__button:hover,
 .form__button:active {
-  background-color: #ffb627;
+  background-color: #f4e409;
+  color: white;
+  font-weight: bold;
   -webkit-transition: all 0.8s;
   -moz-transition: all 0.8s;
   transition: all 0.8s;

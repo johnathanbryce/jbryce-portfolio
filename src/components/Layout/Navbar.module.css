@@ -52,7 +52,7 @@
 .header a.active {
   color: #e3dfff;
   padding-bottom: 1rem;
-  border-bottom: 0.25rem solid white;
+  border-bottom: 0.25rem solid #3a4cbb;
 }
 
 @media only screen and (max-width: 950px) {

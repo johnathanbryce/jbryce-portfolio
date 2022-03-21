@@ -5,7 +5,7 @@
   align-items: center;
   color: white;
 
-  background-color: #3f88c5;
+  background-color: #3a4cbb;
   height: 100vh;
   scroll-snap-align: start;
   color: white;
@@ -40,7 +40,7 @@
 
 .skills__container__list li:before {
   content: "o";
-  color: #ffb627;
+  color: #f4e409;
 }
 
 .education__container {
@@ -50,7 +50,7 @@
 }
 
 .education__container a:hover {
-  color: #ffb627;
+  color: #f4e409;
 }
 
 .skills__header {

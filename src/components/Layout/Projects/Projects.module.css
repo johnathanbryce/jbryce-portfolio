@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e26d5c;
+  background-color: #21366d; /*#e26d5c */
   height: 100vh;
   scroll-snap-align: start;
   /* content padding per component */

@@ -53,7 +53,7 @@ const Skills = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <h5>Intro to Web Development (Part Time) - Lighthouse Labs (2020)</h5>
+          <h5>Intro to Web Development - Lighthouse Labs (2020)</h5>
         </a>
         <a
           href="https://www.uvic.ca/socialsciences/psychology/index.php"
