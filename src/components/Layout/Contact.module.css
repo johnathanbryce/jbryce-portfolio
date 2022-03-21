@@ -41,7 +41,7 @@ textarea {
 
 .form__button {
   margin-top: 1.5rem;
-
+  color: black;
   width: 40rem;
   height: 5rem;
 }
@@ -79,6 +79,7 @@ button {
     margin-top: 1.5rem;
     width: 150%;
     height: 5rem;
+    color: black;
   }
 
   .form__button:hover,
@@ -92,6 +93,7 @@ button {
 
 @media only screen and (max-width: 417px) {
   .form__button {
-    color: inherit;
+    color: black;
+    -webkit-tap-highlight-color: transparent;
   }
 }
