@@ -33,9 +33,9 @@ const About = () => {
           <p data-aos="fade-right">
             and I am a
             <span className={classes.highlight}> Front-End Web Developer </span>
-            based in Vancouver, BC. I am passionate about building fluid,
-            creative, and interactive websites and applications and continually
-            expanding on my coding skillsets. Welcome to my portfolio page!
+            based in Vancouver, BC. I am excited about building fluid, creative,
+            and interactive websites and applications and continually expanding
+            on my coding skillsets. Welcome to my portfolio page!
           </p>
           <div className={classes.btn__container} data-aos="fade-right">
             <button className={classes.resume__btn}>
