@@ -61,7 +61,7 @@
 .scrolldown__skills {
   margin-top: 2rem;
   position: relative;
-  top: 3.2rem;
+  top: 6rem;
 
   color: white;
   --fa-animation-duration: 4.5s;
@@ -73,7 +73,7 @@
     padding: 1rem 4rem 1rem 4rem;
   }
   .skills h5 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .skills__container,
@@ -91,7 +91,7 @@
     align-self: flex-start;
     list-style-type: none;
     padding: 1rem 2rem 1rem 2rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -101,7 +101,7 @@
   }
   .skills__container__list li {
     padding: 2rem 2rem 2rem 2rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -129,10 +129,7 @@
 
   .skills__container__list li {
     padding: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .education__container {
+    font-size: 1.1rem;
   }
 }
 
