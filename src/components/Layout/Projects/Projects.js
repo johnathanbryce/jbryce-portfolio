@@ -48,7 +48,7 @@ const Projects = () => {
           <SwiperSlide>
             <ProjectsCard
               solluna="SolLuna Essence"
-              link="https://solluna-essence.netlify.app/"
+              link="https://www.sollunaessence.com/"
               img={sollunaimage}
               description="This site provides current and prospective patrons a landing page to learn about and access services for spiritual healing and guidance techniques from Bio-Energy Healing Practitioner and Intuitive reader, Sydney Fisher."
               languages="CSS, SCSS, HTML, JavaScript, jQuery "
