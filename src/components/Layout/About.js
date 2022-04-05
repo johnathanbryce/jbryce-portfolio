@@ -12,6 +12,7 @@ import portfolio__image from "../../images/portfolio-image.jpeg";
 import github__Icon from "../../images/github-icon.png";
 import linkedin__icon from "../../images/linkedin-icon.png";
 
+//https://docs.google.com/document/d/10tNCxexi9zFaYBwJwgDzl9M5rRYRysSu0XYQ4lZOcmQ/export?format=pdf
 const About = () => {
   return (
     <div className={classes.about} id="about">
@@ -40,7 +41,7 @@ const About = () => {
           <div className={classes.btn__container} data-aos="fade-right">
             <button className={classes.resume__btn}>
               <a
-                href=" https://docs.google.com/document/d/10tNCxexi9zFaYBwJwgDzl9M5rRYRysSu0XYQ4lZOcmQ/export?format=pdf"
+                href="https://docs.google.com/document/d/1BvGc7f8dbyUsqAugpslSbU677PLChgDRwdLFniFwkJc/export?format=pdf"
                 download
                 rel="noreferrer"
               >
